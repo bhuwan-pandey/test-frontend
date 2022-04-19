@@ -1,0 +1,70 @@
+@import "https://fonts.googleapis.com/css2?family=Flavors";
+@import "https://fonts.googleapis.com/css2?family=DotGothic16";
+@import "https://fonts.googleapis.com/css2?family=VT323";
+
+.st0 {
+  color: #006363;
+  font-family: "Flavors", cursive;
+}
+.st1 {
+  color: #006363;
+  font-size: 20vw;
+}
+
+#containerrr {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.des {
+  font-family: "DotGothic16";
+  color: #02a2a2;
+}
+.messagee {
+  font-family: "VT323";
+  color: #02a2a2;
+  font-size: 20px;
+}
+.messagee:after {
+  content: "]";
+}
+.messagee:before {
+  content: "[";
+}
+
+.messagee:after,
+.messagee:before {
+  color: #02a2a2;
+
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: opacity;
+  animation-name: opacity;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  margin: 0 10px;
+}
+
+@-webkit-keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
